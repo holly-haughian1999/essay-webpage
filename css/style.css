@@ -1,0 +1,239 @@
+/*CSS RESET*/
+
+*{
+    padding: 0;
+    margin-top: 0.6em;
+    margin-right: .3em;
+    font-size: 100%;
+    line-height: 0em;
+}
+
+/*STYLE LINKS*/
+
+#nav{
+    color: beige;
+    text-decoration: none;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+/*NAV*/
+
+.main-logo img {
+    width: 46px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    text-align: left;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #1E1E1E;
+    padding: 1em 1em;
+    font-size: 0.9em;
+}
+
+nav ul{
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link{
+    color: #fafafa;
+}
+
+
+.navbar-container {
+	text-align: right;
+	box-shadow: 0px -20px 5px 20px #333333;
+	padding: 10px;
+    font-size: 0;
+    height: .5em;
+}
+
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+    font-size: 12px;
+    text-align: right;
+}
+
+.navbar-container ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+    transition: 0.5s;
+    
+}
+
+.navbar-container ul li .underline1 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li .underline2 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li .underline3 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline4 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline5 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline6 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline7 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline1 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline2 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline3 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline4 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline5 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline6 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline7 {
+	width: 100%;
+	background-color: white;
+}
+
+.navbar-container ul li:hover .underline1 {
+	background-color: #5cc5f1;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline2 {
+	background-color: #aed0a4;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline3 {
+	background-color: #d88e5e;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline4 {
+	background-color: #f396a3;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline5 {
+	background-color: #f7c655;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline6 {
+	background-color: #f396f2;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline7 {
+	background-color: #96aef3;
+	width: 100%;
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline1 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline2 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline3 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline4 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline5 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline6 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline7 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
