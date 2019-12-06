@@ -237,3 +237,14 @@ nav a:link{
 	transition: none;
 	background-color: rgba(255,255,255,0.76);
 }
+
+
+/*MAIN STYLING*/
+body{
+	width: 80%;
+	max-width: 670px;
+	margin: auto;
+	background: #2c2b2b;
+	color: #333;
+	font-family: 'Libre Baskerville', serif;
+ }
