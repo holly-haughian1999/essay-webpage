@@ -60,7 +60,7 @@ nav a:link{
 .navbar-container {
 	position: fixed;
 	text-align: right;
-	box-shadow: 0px -20px 5px 20px #333333;
+
 	padding: 10px;
     font-size: 0;
     height: .3em;
@@ -246,7 +246,7 @@ nav a:link{
  body{
 	width: 80%;
 	max-width: 670px;
-	
+	margin: auto;
 	padding: 6em;
 	background: #353434;
 	color: #333;
@@ -254,6 +254,8 @@ nav a:link{
  }
  
  header{margin-bottom: 5em;}
+
+ .positive{margin-bottom: 5em;}
 
  /*------TYPOGRAPHY-----*/
  .scale h1{
@@ -278,7 +280,7 @@ nav a:link{
 	 font-size: 2px;
  }
  
- /*----ADDING FLEXBOX----*/
+ /*----ADDING FLEXBOX---
  article{
 	 display: flex;
  }
@@ -363,19 +365,69 @@ nav a:link{
 	  width: 1200px;
 	  margin: left;
 	  margin-top: 4em;
+	  padding: 1em;
+	  
   }
+  .wrap2{
+	width: 1200px;
+	margin: left;
+	margin-top: 4em;
+	padding: 1em;
+	margin-right: 40em;
+	text-align: center;
+	float: left;
+	
+}
   .left{
 	  width: 570px;
-	  
 	  height: 500px;
 	  float: left;
+	position: absolute;
+		top: 50%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
   }
+  .left2{
+	width: 570px;
+	height: 500px;
+	float: left;
+   margin-left: 40em;
+	  top: 50%;
+	  left: 30%;
+	  transform: translate(-50%, -50%);
+	 
+	  text-align: center;
+
+}
   .right{
 	width: 570px;
 	height: 500px;
 	float: right;
   }
 
+
+  /*-----BEGGININGS DIV STYLING----*/
+  .begginings{
+	width: 1550px;
+	margin-left: -24em;
+	background-color: gray;
+	display: inline-block;
+  }
+
+  .begginings, p{
+	  text-align: center;
+	
+	  display: inline-block;
+  }
+
+  #center{
+	  text-align: center;
+	  width: 700px;
+	  margin: auto;
+	  margin-top: 3em;
+	  margin-left: 32em;
+  }
   /* Clear floats after the columns */
   .row:after {
 	content: "";
@@ -386,7 +438,29 @@ nav a:link{
 	 font-weight: 100;
 	 font-size: 18px;
   }
- }
+
+
+  /*----NEGATIVES DIV STYLING----*/
+
+  .negative{
+	width: 1550px;
+	margin-left: -24em;
+	background-color: gray;
+	display: inline-block;
+  }
+
+  .negative, p{
+	  text-align: center;
+	
+	  display: inline-block;
+  }
+
+ 
+  /*---IMAGE STYLING----*/
+
+  #imgtim{
+	  margin-left: 7em;
+  }
 
 
 
