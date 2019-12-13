@@ -378,16 +378,29 @@ nav a:link{
 	float: left;
 	
 }
+
   .left{
 	  width: 570px;
 	  height: 500px;
-	  float: left;
+	  float: ;
 	position: absolute;
 		top: 50%;
 		left: 30%;
 		transform: translate(-50%, -50%);
 		z-index: 1;
   }
+  .left1{
+	width: 570px;
+	height: 500px;
+	float: left;
+    margin-top: 10em;
+	  top: 50%;
+	  left: 30%;
+	  transform: translate(-50%, -50%);
+	 
+	  text-align: center;
+
+}
   .left2{
 	width: 570px;
 	height: 500px;
