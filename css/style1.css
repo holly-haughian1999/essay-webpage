@@ -1,0 +1,566 @@
+/*-------- CSS Reset ------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    scroll-behavior: smooth;
+}
+
+
+
+/*---------- MAIN STYLING ----------*/
+body {
+    width: 100%;
+    max-width: 860px;
+    margin: auto;
+    background: #353434;
+	color: rgb(253, 249, 227);
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {margin-bottom: 5em} 
+
+header{margin-bottom: 5em;}
+
+
+/*STYLE LINKS*/
+
+#nav{
+    color: beige;
+    text-decoration: none;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+
+  /*---HR STYLING*---*/
+  .hr1{
+    height: 4px;
+    color: #5cc5f1;
+    background-color: #5cc5f1;
+    border: none;
+    width: 1300px;
+    margin-left: -6cm;
+    
+}
+.hr2{
+    height: 4px;
+    color: #aed0a4;
+    background-color: #aed0a4;
+    border: none;
+    width: 1300px;
+    margin-left: -6cm;
+    
+}
+
+.hr3{
+    height: 4px;
+    color: #d88e5e;
+    background-color: #d88e5e;
+    border: none;
+    width: 1300px;
+    margin-left: -6cm;
+    
+}
+
+.hr4{
+    height: 4px;
+    color: #f396f2;
+    background-color: #f396f2;
+    border: none;
+    width: 1300px;
+    margin-left: -6cm;
+    
+}
+.hr5{
+    height: 4px;
+    color: #f7c655;;
+    background-color: #f7c655;;
+    border: none;
+    width: 1300px;
+    margin-left: -6cm;
+   
+}
+
+
+
+
+/*-----NAV------*/
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #1E1E1E;
+    
+    font-size: 0.9em;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 7px;
+}
+
+nav a:link{
+    color: rgb(252, 246, 215);
+}
+
+
+.navbar-container {
+	position: fixed;
+	text-align: center;
+
+	padding: 10px;
+    font-size: 0;
+    height: .3em;
+}
+
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+.navbar-container ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+    transition: 0.5s;
+    
+}
+
+.navbar-container ul li .underline1 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li .underline2 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li .underline3 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline4 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline5 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline6 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+.navbar-container ul li .underline7 {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+    transition: 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline1 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline2 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline3 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline4 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline5 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline6 {
+	width: 100%;
+	background-color: white;
+}
+.navbar-container ul li.active-link .underline7 {
+	width: 100%;
+	background-color: white;
+}
+
+.navbar-container ul li:hover .underline1 {
+	background-color: #5cc5f1;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline2 {
+	background-color: #aed0a4;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline3 {
+	background-color: #d88e5e;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline4 {
+	background-color: #f396a3;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline5 {
+	background-color: #f7c655;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline6 {
+	background-color: #f396f2;
+	width: 100%;
+}
+.navbar-container ul li:hover .underline7 {
+	background-color: #96aef3;
+	width: 100%;
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline1 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline2 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline3 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline4 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline5 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline6 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline7 {
+	transition: none;
+	background-color: rgba(255,255,255,0.76);
+}
+
+
+
+
+/*----------------- ADDING FLEXBOX ------------------*/
+    
+article {
+    display: flex;} 
+   
+   
+.main{ flex: 3;
+    padding-right: 1em }
+   
+.aside1 { flex: 1;  
+        font-size: 0.75em;
+        font-style: italic; 
+        border-left: 1px solid #5cc5f1;
+        padding-left: 1em}
+
+        .aside2 { flex: 1;  
+            font-size: 0.75em;
+            font-style: italic; 
+            border-left: 1px solid #aed0a4;
+            padding-left: 1em}
+           
+           
+ .aside3  { flex: 1;  
+     font-size: 0.75em;
+     font-style: italic; 
+     border-left: 1px solid #d88e5e;
+     padding-left: 1em}
+     
+     .aside4  { flex: 1;  
+        font-size: 0.75em;
+        font-style: italic; 
+        border-left: 1px solid  #f396f2;
+        padding-left: 1em}
+  
+/*-----IMAGES------*/
+
+img{
+    display: block;
+    margin: 3em auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*---------TYPOGRAPHY---------*/
+
+
+
+h1, h2, h3{
+   font-weight: normal;
+   color: rgb(253, 249, 227);
+   text-align: center;
+   font-family: jaf-bernina-sans, sans-serif;
+}
+
+p, blockquote {
+   margin-bottom: 1.5em;
+   line-height: 1.5;
+   font-family: source-code-pro, monospace;
+}
+
+h1 {font-size: 2.872em;
+   margin-top: 2em;
+   margin-bottom: 0.2em;
+   font-family: source-code-pro, monospace;
+}
+
+h2 {font-size: 1.999em;
+   margin: 1em 0 1em 0;}
+
+h3 {font-size: 1.414em;
+   margin-bottom: 1.5em;}
+
+   #name{
+       font-size: 20px;
+   }
+
+   .w1{
+       font-size: 200px;
+       font-family: source-code-pro, monospace;
+       color: #f7c655;
+   }
+   .w2{
+    font-size: 200px;
+    font-family: source-code-pro, monospace;
+    color: #aed0a4;;
+}
+.w3{
+    font-size: 200px;
+    font-family: source-code-pro, monospace;
+    color: #d88e5e;
+}
+blockquote {
+    font-size: 1.4em;
+    hanging-punctuation: first;
+    text-indent: -0.45;
+    font-family: source-code-pro, monospace;
+ }
+ 
+ cite{
+    font-size: 0.8em;
+    font-family: source-code-pro, monospace;
+ }
+
+ .intro{
+     font-size: 0.9em;
+ }
+ 
+
+
+
+
+/*---WEBFONTS---*/
+
+#headerfont{
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 600;
+	font-style: normal;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(253, 249, 227);
+ }
+
+ #font{
+    font-family: source-code-pro, monospace;
+    font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	text-align: center;
+	color: rgb(253, 249, 227);
+ }
+
+/*----TABLE-----*/
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+caption{
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+th{
+    color: cornsilk;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: lightseagreen;
+}
+th, td{
+    padding: .6em;
+}
+table, td{
+    background: navajowhite;
+    border: 1px solid #fafafa;
+}
+
+/*---------FOOTER-------*/
+
+footer{
+   text-align: center;
+   font-size: 0.8em;
+   padding: 2em 0 4em 0;
+}
+/*----FOOTER-LINKS-----*/
+.connections{
+    position: relative;
+    margin: 0 auto;
+}
+.connections ul{
+    margin: 0;
+    padding: 0;
+}
+.connections li{
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.connections a:link{
+    border-bottom: none;
+}
+.connections img{
+    opacity: 0.5;
+    border: none;
+}
+.connections a:hover{
+    opacity: 1.0;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+}
+#anchor{
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+
+
+
+/* ----- MEDIA QUERIES -------*/
+
+
+/*-------- TABLET ----------*/
+
+@media (max-width: 50em) { 
+    body {
+        width: 100%;
+    }
+     
+header p, article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+article { flex-flow: column;
+          flex-direction: column;}
+     
+section { width: 90%}
+    
+.aside {border-left: none;
+        margin: 0;
+        padding-left: 1em;
+    font-size: 1.2em}    
+} 
+
+/*----- SMARTPHONE ------- */
+ @media (max-width: 30em) {
+   body {
+    margin: auto 0;
+    width: 95%;
+    font-size: 135%; 
+    }
+
+     
+nav ul li {
+    display: block;
+    margin: 20px; }
+     
+table {font-size: 90%}
+     
+article {
+    width: 90%;
+    } 
+
+h1 {font-size: 2em;
+     line-height: 1.3}   
+blockquote { font-size: 1.25em;
+         padding: 0;
+         line-height: 1.6em}  
+     
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}  
+     
+nav ul li {font-size: .75em;
+        margin: 10px}
+     
+     img {display: none}
+ 
